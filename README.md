@@ -10,7 +10,7 @@ Options:
  * className:  class name for top level div (default: null)
  * closeCallbackName: name for the callback that closes the modal. This should be a prop on the wrapped component (default empty string)
  * showCloseButton: wether to show the 'close button' before the component (default: false)
- * closeButton: react element or string for the close button (default: <div>x</div>)
+ * closeButton: react element or string for the close button (default: a 'x' inside a div)
  * closeOnBackdropClick: wether to trigger the 'closeCallback' when backdrop is clicked (default: true)
  * isFixed: wether to apply the default 'fixed' styles. These will position the modal in the middle of the screen (default: false)
  * backdropOpacity: numeric opacity value for backdrop, ex: use 0 for transparent, 1 for no transparency (default: 0.3)
