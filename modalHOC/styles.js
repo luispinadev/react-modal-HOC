@@ -1,5 +1,5 @@
 export default {
-  "react-modal-HOC-backdrop": {
+  "backdrop": {
     "position": "fixed",
     "top": "0",
     "right": "0",
@@ -8,19 +8,19 @@ export default {
     "backgroundColor" "#000",
     "zIndex": "99998",
   },
-  "react-modal-HOC-container": {
+  "container": {
     "zIndex": "99999",
     "position": "relative",
     "backgroundColor": "#fff"
   },
-  "react-modal-HOC-closeButton": {
+  "closeButton": {
     "position": "absolute",
     "right": "0",
     "padding": "0.25em 0.5em",
     "height": "10px",
     "fontSize": "11px"
   },
-  "react-modal-HOC-isFixed": {
+  "isFixed": {
     "position": "fixed",
     "right": "0",
     "left": "0",
