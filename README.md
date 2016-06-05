@@ -3,6 +3,7 @@ This HOC gives the wrapped component a modal behaviour.
 Depending on the options, this can output a traditional modal popup with backdrop (using the provided default styles), or just
 add a 'deferred click' like behaviour to trigger a callback on click outside of the component,
 without changing the component's style.  
+The default styles are implemented with stylus (an indentation based SASS like CSS pre processor) and included with 'require' in this example.  
 
 
 Options:

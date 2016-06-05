@@ -1,7 +1,5 @@
 import React from 'react'
-import classnames from 'classnames' // util for conditional classname generation
-
-import styles from './styles'
+import styles from './styles.styl' // using wepack style require for default CSS include
 
 export default (WrappedComponent, {
   className= null,
@@ -20,7 +18,7 @@ export default (WrappedComponent, {
       style={ {opacity: backdropOpacity }}
       onClick={closeOnBackdropClick && props[closeCallbackName]}
     />
-    <div className={classnames(containerClass, { [styles.isFixed]: isFixed })}>
+    <div className={`${containerClass} ${isFixed ? styles.isFixed : ''}`}>
       { showCloseButton && <div onClick={ props[closeCallbackName] } >{closeButton}</div> }
       <WrappedComponent {...props} />
     </div>
